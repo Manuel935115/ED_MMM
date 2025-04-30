@@ -4,8 +4,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Persona_MMM nom1 = new Persona_MMM(1, "Papa", 85, 1.75, 22);
-		Persona_MMM nom2 = new Persona_MMM(2, "Pepe", 75, 1.80, 25);
+		Persona_MMM nom1 = new Persona_MMM(1, "Papa", 42, 1.75, 22);
+		Persona_MMM nom2 = new Persona_MMM(2, "Pepe", 42, 1.80, 25);
 		
 		MMM_GravedadPlaneta plan1 = new MMM_GravedadPlaneta(1, "Tierra", 9.81);
 		MMM_GravedadPlaneta plan2 = new MMM_GravedadPlaneta(2, "Marte", 3.72);
@@ -24,6 +24,11 @@ public class Main {
 		double gravedadJupiter = nom1.getGravedadPlaneta();
 		double pesoJupiter = masaPersona*gravedadJupiter;
 		
+		extracted(nom1, nom2, plan1, plan3, pesoTierra, pesoMarte, pesoJupiter);
+	}
+
+	public static void extracted(Persona_MMM nom1, Persona_MMM nom2, MMM_GravedadPlaneta plan1,
+			MMM_GravedadPlaneta plan3, double pesoTierra, double pesoMarte, double pesoJupiter) {
 		System.out.println(nom1);
 		System.out.println("El IMC de la persona"+nom1.getNombre()+"es...");
 		System.out.println(nom2);
