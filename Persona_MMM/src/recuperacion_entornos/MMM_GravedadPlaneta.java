@@ -2,6 +2,9 @@ package recuperacion_entornos;
 // khjgikgiujygf
 public class MMM_GravedadPlaneta {
 	private String nombre;
+	public MMM_GravedadPlaneta(int i, String string, double d) {
+		// TODO Auto-generated constructor stub
+	}
 	@Override
 	public String toString() {
 		return "MMM_GravedadPlaneta [nombre=" + nombre + ", GravedadPlaneta=" + GravedadPlaneta + ", tipo=" + tipo

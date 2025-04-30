@@ -2,6 +2,10 @@ package recuperacion_entornos;
 // jhfhfhtdfhbtfgjh
 public class Persona_MMM {
 
+	public Persona_MMM(int i, String string, int j, double d, int k) {
+		// TODO Auto-generated constructor stub
+	}
+	
 	public int getId() {
 		return id;
 	}
@@ -44,6 +48,10 @@ public class Persona_MMM {
 	private double masa;
 	private double altura;
 	private int edad;
-	
+	private int persona;
+	public double getGravedadPlaneta() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 	
 }
