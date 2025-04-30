@@ -1,5 +1,5 @@
 package recuperacion_entornos;
-
+// khjgikgiujygf
 public class MMM_GravedadPlaneta {
 	private String nombre;
 	@Override
